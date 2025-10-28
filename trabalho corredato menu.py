@@ -47,7 +47,7 @@ def main():
     while True:
         os.system("cls" if os.name == "nt" else "clear")
         print("\nMenu de Operações")
-        print("1. Raiz quadrada")
+        print("1. quadrada")
         print("2. Potência")
         print("3. Número aleatório")
         print("4. Sair")
