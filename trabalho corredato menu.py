@@ -50,8 +50,8 @@ def main():
         print("1. Raiz quadrada")
         print("2. Potência")
         print("3. Número aleatório")
-        print("4. Sair")
-        print("5. Operações básicas")
+        print("4. Operções matematicas")
+        print("5. Sair")
 
         opcao = input("Escolha uma opção: ")
         if opcao == '1':
@@ -60,11 +60,13 @@ def main():
             potencia()
         elif opcao == '3':
             numero_aleatorio()
+        
         elif opcao == '4':
+            operacoes_basicas()
+        elif opcao == '5':
             print("Saindo do programa...")
             break
-        elif opcao == '5':
-            operacoes_basicas()
+        
         else:
             print("Opção inválida. Tente novamente.")
             input("Pressione qualquer tecla para continuar...")
